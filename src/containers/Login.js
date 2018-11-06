@@ -13,7 +13,7 @@ class Login extends Component {
         <View style={styles.imageContainer}>
           <Image
             style={styles.image}
-            source={require('../assets/images/logo.png')}
+            source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'}}
           />
         </View>
         <View style={styles.inputsContainer}>
