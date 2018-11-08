@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
-import Home from './containers/Home';
-import Login from './containers/Login';
+import Home from './containers/HomeScreen';
+import Login from './containers/LoginScreen';
 import CustomHeader from './presentations/CustomHeader';
 
 const AppRouter = createStackNavigator(

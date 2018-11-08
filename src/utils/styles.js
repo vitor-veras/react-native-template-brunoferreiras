@@ -19,4 +19,3 @@ const commonStyles = {
 };
 
 export { colors, commonStyles };
-

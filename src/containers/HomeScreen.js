@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-elements';
 import { commonStyles } from '../utils/styles';
 
-class Home extends Component {
+class HomeScreen extends Component {
   render() {
     return (
       <View style={[commonStyles.container]}>
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Home;
+export default HomeScreen;

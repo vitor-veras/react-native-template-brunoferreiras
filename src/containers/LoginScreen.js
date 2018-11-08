@@ -3,7 +3,7 @@ import { Image, StyleSheet, View } from 'react-native';
 import { Button, FormInput } from 'react-native-elements';
 import { colors, commonStyles } from '../utils/styles';
 
-class Login extends Component {
+class LoginScreen extends Component {
   login = () => {
     this.props.navigation.replace('MainNavigation');
   };
@@ -13,7 +13,7 @@ class Login extends Component {
         <View style={styles.imageContainer}>
           <Image
             style={styles.image}
-            source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'}}
+            source={require('../assets/images/logo.png')}
           />
         </View>
         <View style={styles.inputsContainer}>
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Login;
+export default LoginScreen;
